@@ -33,7 +33,7 @@ class Solution {
                 if(nums[i] == element2) cnt2++;
             }
             int mini = int(n / 3) + 1;
-            if(cnt1 >= mini) ls.push_back(element1);
+            if(cnt1 >= mini) ls.push_back(element1); // Main Yahan pe = equal sign lagana bhoool gaya tha toh answer glt aaaya tha
             if(cnt2 >= mini) ls.push_back(element2);
             return ls;
         }
