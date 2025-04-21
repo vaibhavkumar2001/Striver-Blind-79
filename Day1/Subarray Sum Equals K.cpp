@@ -16,7 +16,7 @@ class Solution {
                 // Add current element to prefix Sum:
                 preSum += nums[i];
     
-                // Calculate x-k:
+                // Calculate x-k: Yahan pe remove krne ka mtlb h ki main index ki baat kr rha hoon jo current index aur peeche ka index minus kr rha tha
                 int remove = preSum - k;
     
                 // Add the number of subarrays to be removed:
